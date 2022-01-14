@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --primeary-color: #FFFFFF;
+    --frist-color: #FFC178;
+    --text-color: #252C3A;
+    --font-400: 400;
+    --font-500: 500;
+    --font-600: 600;
+    --font-700: 700;
+    --font-800: 800;
+    --font-900: 900;
+    --font-family-1: 'Montserrat', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-family-1);
+}
+body{
+    background-color: var(--primeary-color);
+    min-width: 1200px;
+}
+.full-wrapper{
+
+width: 100%;
+
+margin: auto;
+}
+/*===== Header Section Design Here =======*/
+.header{
+    width: 100%;
+    background-image: url(../images/home-01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.header-top-section{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
+    align-items: center;
+}
+.header-top-section .logo{width: 15%;text-align: center;margin: auto;}
+.header-top-section .logo a{
+
+display: block;
+}
+.header-top-section .logo a img{
+}
+.header-top-section .main-menu,
+.main-menu{display: flex;justify-content: flex-end;align-items: center;width: 70%;}
+.main-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-menu ul li{}
+.main-menu ul li a{
+    padding: 5px 15px;
+    margin: 0 2px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #252C3A;
+    transition: all .5s;
+}
+.main-menu ul li a:hover {
+    color: #FFC178;
+    text-decoration: underline;
+    display: block;
+}
+
+.header-top-section .apply-btn-box{
+    width: 12%;
+    margin: auto;
+}
+.header-top-section .apply-btn-box a.apply-btn{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffc178;
+    text-transform: capitalize;
+    background: #fff;
+    padding: 15px 5px;
+    border-radius: 35px;
+    text-align: center;
+    transition: all .5s;
+    box-shadow: 0px 0px 20px -13px #252c3a;
+    text-shadow: 0px 0px 10px #ffc178;
+}
+.header-top-section .apply-btn-box a.apply-btn:hover {
+    background: #ffc178;
+    color: #ffffff;
+    box-shadow: 0px 0px 20px -13px #252c3a;
+    text-shadow: 0px 0px 10px #ffc178;
+}
+.header-bottom-section{
+    width: 85%;
+    margin: auto;
+    padding-bottom: 250px;
+    padding-top: 100px;
+}
+.h-b-s-box{
+    width: 54%;
+    padding-left: 50px;
+}
+.h-b-s-box h1{
+    font-size: 40px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 45px;
+    color: #ffc178;
+}
+.h-b-s-box p{
+    padding-top: 20px;
+    width: 90%;
+    color: #252c3abd;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.h-b-s-box .visit-btn-box{
+    width: 50%;
+    margin-top: 40px;
+}
+.h-b-s-box .visit-btn-box a{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffc178;
+    color: #252c3a;
+    padding: 20px 9px;
+    border-radius: 35px;
+    text-align: center;
+    transition: all .5s;
+    text-transform: capitalize;
+    width: 80%;
+    text-shadow: 0px 0px 10px #252c3a;
+}
+.h-b-s-box .visit-btn-box a:hover{
+    background: #FFFFFF;
+    color: #FFC178;
+    box-shadow: 0px 0px 20px -13px #252c3a;
+    text-shadow: none;
+}
+.position-bg{
+    width: 100%;
+}
+.position-bg img{
+    width: 135px;
+}
+.position-bg .position-left{
+    position: absolute;
+    top: 81%;
+    left: 20px;
+}
+.position-bg .position-right{
+    position: absolute;
+    top: 75%;
+    right: 17px;
+}
+/*===== Header Section Design Here =======*/
+/*===== Header Section Design Here =======*/
+
+
+
+
+
+/*===== Department Section Design Here =======*/
+/*===== Department Section Design Here =======*/
+.department-section{
+    width: 100%;
+    background: #fff9f3;
+    padding-bottom: 50px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.section-title{
+    width: 65%;
+    padding: 50px 0;
+    margin: auto;
+}
+.section-title h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    color: #252c3a;
+}
+.section-title p{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 25px;
+    color: #252c3abd;
+    text-align: center;
+    margin: auto;
+    line-height: 26px;
+}
+.all-department{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.department-box{background: aquamarine;display: flex;padding: 30px;box-sizing: border-box;height: 300px;width: 30%;justify-content: center;align-items: center;border-radius: 5px;box-shadow: 0px 0px 20px -13px #252c3a;z-index: 5;}
+.d-b-content{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.d-b-content img{
+    width: 100%;
+    margin: auto;
+    height: 180px;
+    display: block;
+    transition: all .5s;
+}
+.d-b-content h2{
+    font-size: 20px;
+    padding-top: 20px;
+    color: #fff9f3;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.department-box:nth-child(1){
+    background: #fa713b;
+}
+.department-box:nth-child(2){
+    background: #81bf42;
+}
+.department-box:nth-child(3){
+    background-color: #ffb258;
+}
+.department-box:hover img{
+    
+transform: scale(1.2);
+}
+
+/*===== Department Section Design Here =======*/
+/*===== Department Section Design Here =======*/
+
+
+
+
+/*===== About Section Design Here =======*/
+/*===== About Section Design Here =======*/
+.about-section{
+    width: 100%;
+    padding: 50px 0;
+    background: #fff9f3;
+    position: relative;
+}
+.all-about-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-right{
+    width: 55%;
+}
+.about-right h2{
+    font-size: 23px;
+    width: 65%;
+    line-height: 37px;
+    padding-bottom: 20px;
+    color: #252c3a;
+}
+.about-right p{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #252c3abd;
+    line-height: 25px;
+}
+.about-right.a-r-content{}
+.about-right .about-counter{
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-right .about-counter .a-c-box{
+    box-sizing: border-box;
+}
+.about-right .about-counter .a-c-box span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-right .about-counter .a-c-box strong{font-weight: 400;font-size: 18px;}
+.about-left{
+    width: 40%;
+    z-index: 55555;
+}
+.about-left img{
+    width: 100%;
+    height: 400px;
+}
+.a-c-box:nth-child(1) strong,
+.a-c-box:nth-child(1) span{color: #FFBA00;}
+
+.a-c-box:nth-child(2) strong,
+.a-c-box:nth-child(2) span{
+    color: #FF5F72;
+}
+
+.a-c-box:nth-child(3) strong,
+.a-c-box:nth-child(3) span{
+    color: #43CB83;
+}
+
+
+.about-section::before {
+    content: '';
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    position: absolute;
+    left: -263px;
+    top: -15%;
+    border: 58px solid #ffb2584d;
+    box-shadow: 0px 0px 0px 100px #ffb2588c;
+    border-radius: 50%;
+    opacity: .5;
+}
+
+/*===== About Section Design Here =======*/
+/*===== About Section Design Here =======*/
+
+
+
+/*===== Blog Section Design Here =======*/
+/*===== Blog Section Design Here =======*/
+.blog-section{
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+.blog-section::after {
+    content: '';
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 14%;
+    border: 58px solid #ffb2584d;
+    box-shadow: 0px 0px 0px 100px #ffb2588c;
+    border-radius: 50%;
+    opacity: .5;
+    right: -147px;
+}
+.all-blog{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.blog{width: 23%;margin: 15px 0;background: white;border-radius: 7px;box-shadow: 0px 0px 20px -13px #252c3a;z-index: 5555;}
+.blog .blog-img{width: 100%;height: 150px;background: #54f962;}
+.blog .blog-img img{width: 100%;height: 100%;}
+.blog-ingo{
+    padding: 10px;
+}
+.blog .blog-ingo h2{
+    font-size: 15px;
+    padding-bottom: 12px;
+    color: #252c3a;
+    transition: all .5s;
+}
+.blog .blog-ingo h2:hover {
+    color: #FFBA00;
+    cursor: pointer;
+}
+.blog .blogrgb(114, 131, 165)pan{
+    color: #252c3abd;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.blog .blog-ingo a.read-more-btn{
+    display: block;
+    color: #252c3abd;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.blog .blog-ingo a.read-more-btn:hover{}
+
+
+/*===== Blog Section Design Here =======*/
+/*===== Blog Section Design Here =======*/
+
+
+
+
+/*===== Footer Section Design Here =======*/
+/*===== Footer Section Design Here =======*/
+ .footer-section{
+
+width: 100%;
+
+padding-top: 50px;
+
+background: #1D232E;
+}
+ .footer-top{
+    width: 80%;
+    padding: 30px
+0px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.f-t-box{width: 20%;}
+
+ .footer-bottom{
+    width: 80%;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    border-top: 1px solid #ffffff99;
+}
+ .f-b-1{
+    width: 25%;
+}
+ .f-b-1 p{
+    color: #a79b9bbf;
+    font-weight: 600;
+    font-size: 14px;
+}
+.f-b-2{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+ .footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .footer-menu li{}
+ .footer-menu li a{
+    color: #a79b9bbf;
+    padding: 10px 6px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .5s;
+}
+ .footer-menu li a:hover{
+    color: azure;
+}
+.f-t-box-1{
+    width: 22%;
+}
+.f-t-box-1 a{}
+.f-t-box-1 a img{
+    width: 70%;
+}
+.f-t-box-1 p{
+    padding: 20px 0;
+    color: #ffffffab;
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 500;
+    border-bottom: 1px solid #ffffffab;
+    width: 96%;
+}
+
+.ftb1-social-menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.ftb1-social-menu li{
+    margin: auto 2px;
+}
+.ftb1-social-menu li a{font-size: 16px;color: #484949;transition: all .5s;padding: 5px 5px;}
+.ftb1-social-menu li a:hover{
+    color: #0089FD;
+}
+
+.feature-all-post{width: 30%;}
+.feature-all-post h2{font-size: 14px;font-weight: 600;color: #FFFFFF;text-transform: uppercase;}
+.feature-post{
+    display: flex;
+    padding: 8px 0;
+}
+.feature-post a{
+    display: block;
+    color: #ffffffab;
+    font-weight: 500;
+    font-size: 12px;
+    transition: all .5s;
+}
+.feature-post a:hover{
+    color: #0089FD;
+}
+.feature-post span{
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    padding-left: 5px;
+    color: #ffffff;
+}
+
+.learning-menu-section{}
+.learning-menu-section h2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.all-feature-box{
+    padding-top: 30px;
+}
+.learning-menu-box{
+    padding-top: 30px;
+}
+.learning-menu-box a{
+    color: #ffffffab;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 0;
+    display: block;
+    transition: all .5s;
+}
+.learning-menu-box a:hover{
+    color: #0089FD;
+}
+
+.support{
+    width: 25%;
+}
+.support h2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.support-box{
+    padding-top: 30px;
+}
+.support-box p{
+    color: #ffffffab;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.support-input{
+    width: 100%;
+    display: flex;
+}
+.support-input input{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 0px 0px 5px;
+}
+.support-input input[type='button']{
+    background: #FFC178;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-radius: 0 5px 5px 0px;
+    cursor: pointer;
+}
+/*===== Footer Section Design Here =======*/
+/*===== Footer Section Design Here =======*/
